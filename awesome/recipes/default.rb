@@ -1,7 +1,7 @@
 # Gotta install awesome first.
 package("awesome")
 
-configfilePath = "/home/sylvester/Documents/mycookbooks/awesome/configfiles/"
+configfilePath = "/home/sylvester/Documents/awesomeconfig/awesome/configfiles/"
 
 # Replace awesome config files.
 execute "cp " + configfilePath + "rc.lua /etc/xdg/awesome/"

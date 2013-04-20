@@ -1,2 +1,3 @@
 package("vim")
-execute "sudo cp /home/sylvester/Documents/mycookbooks/vim/configfiles/.vimrc ~/"
+homeDirectory = "/home/sylvester/Documents/"
+execute "sudo cp " + homeDirectory  + "awesomeconfig/vim/configfiles/.vimrc " + homeDirectory
