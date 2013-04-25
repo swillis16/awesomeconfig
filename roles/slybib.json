@@ -3,7 +3,8 @@
   "run_list": [
     "create_mysql_db",
     "vim",
-    "awesome"
+    "awesome",
+    "rails"
     ],
   "create_mysql_db": {
     "db_name": "slytest"
