@@ -24,4 +24,5 @@ gem
 postgresql
 
 To run the configuration use:
+
 chef-solo -c /wherever/wherever/wherever/chefsoloconfig.rb -j /wherever/wherever/wherever/slybib.json
