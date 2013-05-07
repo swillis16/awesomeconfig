@@ -6,11 +6,22 @@ This is an ongoing project, since there are always things that can be added to m
 Packages That are Installed:
 ----------------------------
 Awesome WM
+
 VIM
+
 mysql-client
+
 mysql-server
+
 ruby1.9.1
+
 ruby1.9.1-dev
+
 rails
+
 gem
+
 postgresql
+
+To run the configuration use:
+chef-solo -c /wherever/wherever/wherever/chefsoloconfig.rb -j /wherever/wherever/wherever/slybib.json
